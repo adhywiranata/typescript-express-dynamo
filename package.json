@@ -30,6 +30,6 @@
         "test": "npm run build && mocha --recursive build/tests",
         "build": "tsc",
         "watch": "tsc -w",
-        "serve": "nodemon dev.js"
+        "serve": "nodemon index.js"
     }
 }
