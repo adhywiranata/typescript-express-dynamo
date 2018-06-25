@@ -22,9 +22,9 @@ describe('Tests app', function() {
   });
 });
 
-describe('Courses', function() {
-  it('Successfully fetch courses', function(done) {
-    req.get('/courses').expect(200).end(function(err, res) {
+describe('products', function() {
+  it('Successfully fetch products', function(done) {
+    req.get('/products').expect(200).end(function(err, res) {
       expect(res.status).to.equal(200);
       expect(res.header['content-type']).to.equal('application/json; charset=utf-8');
       done(err);
